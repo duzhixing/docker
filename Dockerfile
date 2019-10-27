@@ -5,9 +5,9 @@ FROM ubuntu
 #
 MAINTAINER duzhixing  dzx1@mail.ustc.edu.cn
 
-RUN sudo apt install git
-RUN sudo apt install make
-RUN sudo apt install curl
+RUN apt install git
+RUN apt install make
+RUN apt install curl
 
 RUN git clone https://github.com/lowRISC/lowrisc-quickstart.git
 
