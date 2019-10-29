@@ -12,6 +12,6 @@ RUN apt install -y curl
 
 RUN git clone https://github.com/lowRISC/lowrisc-quickstart.git
 
-RUN cd lowrisc-quickstart
+WORKDIR lowrisc-quickstart
 
 RUN make getrelease
