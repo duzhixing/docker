@@ -16,9 +16,9 @@ RUN git submodule update --init --recursive
 
 ENV RISCV /opt/riscv
 
-RUN /rocket-chip/riscv-tools/build.sh
+#RUN /rocket-chip/riscv-tools/build.sh
 
-WORKDIR emulator
+#WORKDIR emulator
 
-RUN make CONFIG=RoCCExampConfig
+#RUN make CONFIG=RoCCExampConfig
 
